@@ -1,8 +1,8 @@
 import type { ReactNode } from "react";
-import { API_BASE } from "@/config/env";
-import { StatusBadge } from "@/components/StatusBadge/StatusBadge";
-import { TABS } from "@/constants/tabs";
-import { useHealth } from "@/hooks/useHealth";
+import { API_BASE } from "../config/env";
+import { StatusBadge } from "../components/StatusBadge/StatusBadge";
+import { TABS } from "../constants/tabs";
+import { useHealth } from "../hooks/useHealth";
 
 interface MainLayoutProps {
   activeTab: string;

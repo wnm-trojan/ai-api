@@ -59,12 +59,35 @@ ai-api-project/
 |     └── main.py
 │
 └── frontend/
-    ├── src/
-    │   ├── App.jsx              ← Full UI: 4 interactive panels
-    │   └── main.jsx
-    ├── index.html
-    ├── vite.config.js
-    └── package.json
+  ├── index.html
+  ├── vite.config.ts
+  ├── tsconfig.json
+  ├── package.json
+  └── src/
+      ├── app/
+      │   ├── App.tsx          ← tab routing
+      │   ├── main.tsx         ← entry point
+      │   ├── routes/
+      │   ├── providers/
+      │   └── store/
+      ├── assets/styles/global.css
+      ├── components/          ← Button, Input, Loader, Card, etc.
+      ├── features/
+      │   ├── chat/
+      │   ├── stream/
+      │   ├── json-mode/
+      │   ├── function-call/
+      │   ├── auth/            ← placeholder
+      │   ├── dashboard/
+      │   ├── users/
+      │   └── products/
+      ├── hooks/useHealth.ts
+      ├── layouts/MainLayout.tsx
+      ├── services/apiClient.ts
+      ├── config/env.ts
+      ├── constants/tabs.ts
+      └── types/api.ts
+
 ```
 
 ---

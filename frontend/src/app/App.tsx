@@ -1,9 +1,9 @@
 import { useState } from "react";
-import { ChatPanel } from "@/features/chat";
-import { StreamPanel } from "@/features/stream";
-import { JSONPanel } from "@/features/json-mode";
-import { FunctionPanel } from "@/features/function-call";
-import { MainLayout } from "@/layouts/MainLayout";
+import { ChatPanel } from "../features/chat";
+import { StreamPanel } from "../features/stream";
+import { JSONPanel } from "../features/json-mode";
+import { FunctionPanel } from "../features/function-call";
+import { MainLayout } from "../layouts/MainLayout";
 
 export default function App() {
   const [tab, setTab] = useState("chat");

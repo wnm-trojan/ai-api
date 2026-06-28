@@ -1,4 +1,4 @@
-import { API_BASE, buildHeaders } from "@/config/env";
+import { API_BASE, buildHeaders } from "../config/env";
 
 export async function apiFetch<T>(path: string, body: unknown): Promise<T> {
   const res = await fetch(`${API_BASE}${path}`, {
