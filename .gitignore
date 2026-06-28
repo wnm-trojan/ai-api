@@ -1,0 +1,78 @@
+# Byte-compiled / optimized / DLL files
+backend/__pycache__/
+backend/*.py[cod]
+backend/*$py.class
+
+# C extensions
+backend/*.so
+
+# Distribution / packaging
+backend/.Python
+backend/build/
+backend/develop-eggs/
+backend/dist/
+backend/downloads/
+backend/eggs/
+backend/.eggs/
+backend/lib/
+backend/lib64/
+backend/parts/
+backend/sdist/
+backend/var/
+backend/*.egg-info/
+backend/installed.cfg
+backend/*.egg
+
+# Installer logs
+backend/pip-log.txt
+backend/pip-delete-this-directory.txt
+
+# Virtual environments
+backend/venv/
+backend/ENV/
+backend/env/
+backend/.venv/
+backend/.ENV/
+
+# VS Code and PyCharm settings
+backend/.vscode/
+backend/.idea/
+
+# Pytest and coverage reports
+backend/.cache/
+backend/.pytest_cache/
+backend/coverage.*
+backend/htmlcov/
+
+# Jupyter Notebook
+backend/.ipynb_checkpoints
+
+# MyPy
+backend/.mypy_cache/
+
+# Bandit security scanner
+backend/bandit.yaml
+
+# dotenv
+backend/.env
+backend/.env.*
+
+# Database files
+backend/*.sqlite3
+backend/*.db
+
+# Logs
+backend/*.log
+
+# OS files
+backend/.DS_Store
+backend/Thumbs.db
+
+# FastAPI auto-generated docs (if cached)
+backend/openapi.json
+
+# Ignore test artifacts
+backend/test-results/
+
+# Secrets
+backend/app/config/client_secret.json
